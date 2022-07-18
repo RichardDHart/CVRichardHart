@@ -1,3 +1,8 @@
+.link {
+  color: #0062cc;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
 /* Firefox default 0.5em auto -> reduce for small screen*/
 @media screen and (max-width: 600px)  { 
   hr {margin: 0.1em auto; }
