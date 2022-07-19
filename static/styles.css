@@ -1,7 +1,7 @@
 .link {
-  color: #0062cc;
+  color:#c74600;
   font-weight: bold;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline; */
 }
 /* Firefox default 0.5em auto -> reduce for small screen*/
 @media screen and (max-width: 600px)  { 
@@ -9,7 +9,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  figcaption {
+  figcaption,
+  .link {
     font-size: small;
 }
   }
@@ -26,7 +27,7 @@
   }
   
   @media only screen{
-    .noprint
+    .noprint,
     .noScreen{display:none;}
   }
   @media screen {
