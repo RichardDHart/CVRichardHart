@@ -66,11 +66,24 @@
     font-weight: bold;
     color: darkblue;
   }
+
+  .cvbigheading {
+    text-align: left;
+    font-size: x-large;
+    /* font-weight: bold; */
+    color: darkblue;
+  }
   
   @media screen and (max-width: 600px) {
     .cvheading,
     p {
       font-size: small;
+  }
+    }
+
+  @media screen and (max-width: 600px) {
+    .cvbigheading {
+      font-size: large;
   }
     }
   
