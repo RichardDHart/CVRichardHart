@@ -1,3 +1,10 @@
+.degree {
+  float: left;
+  width: 50%;
+  padding: 0px 1rem;
+  /* text-align: justify; */
+}
+
 @media screen and (max-width: 600px) {
   .cvheading,
   p {
@@ -12,7 +19,8 @@
   }
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
- .column {
+ .column,
+ .degree {
    width: 100%;
  }
 } 
