@@ -1,9 +1,30 @@
-.link {
-  color:#c74600;
-  font-weight: bold;
-  /* text-decoration-line: underline; */
+/* @media screen and (max-width: 600px) {
+  .cvheading,
+  p {
+    font-size: small;
 }
+  } */
 
+@media screen and (max-width: 600px) {
+  .cvbigheading {
+    font-size: large;
+}
+  }
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .column {
+   width: 100%;
+ }
+} 
+@media only screen{
+  .noprint,
+  .noScreen{display:none;}
+}
+@media screen {
+  .noScreen {
+    display: none
+  }
+}
 /* Firefox default 0.5em auto -> reduce for small screen*/
 @media screen and (max-width: 600px)  { 
   hr {margin: 0.1em auto; }
@@ -15,6 +36,12 @@
     font-size: small;
 }
   }
+.link {
+  color:#c74600;
+  font-weight: bold;
+  /* text-decoration-line: underline; */
+}
+
   
 .dl {
   margin: 5px;
@@ -28,15 +55,6 @@
     margin-left: 5vmin;
   }
   
-  @media only screen{
-    .noprint,
-    .noScreen{display:none;}
-  }
-  @media screen {
-    .noScreen {
-      display: none
-    }
-  }
   
   h3 {
     padding-left: 36px;
@@ -56,12 +74,6 @@
     clear: both;
   }
   
-   /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-   @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  } 
   
   .cvheading {
     text-align: left;
@@ -78,18 +90,6 @@
     margin-top: 0px;
   }
   
-  @media screen and (max-width: 600px) {
-    .cvheading,
-    p {
-      font-size: small;
-  }
-    }
-
-  @media screen and (max-width: 600px) {
-    .cvbigheading {
-      font-size: large;
-  }
-    }
   
   .intro {
     columns: 300px 3;
