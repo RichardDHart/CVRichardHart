@@ -1,9 +1,9 @@
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .cvheading,
   p {
-    font-size: small;
+    font-size: 14px;
 }
-  } */
+  }
 
 @media screen and (max-width: 600px) {
   .cvbigheading {
@@ -41,7 +41,6 @@
   font-weight: bold;
   /* text-decoration-line: underline; */
 }
-
   
 .dl {
   margin: 5px;
@@ -64,7 +63,7 @@
     float: left;
     width: 33.33%;
     padding: 0px 1rem;
-    text-align: justify;
+    /* text-align: justify; */
   }
   
   /* Clear floats after the columns */
