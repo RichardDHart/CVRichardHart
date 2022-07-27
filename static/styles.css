@@ -38,17 +38,12 @@
   hr {margin: 0.1em auto; }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   figcaption,
   .link {
     font-size: small;
 }
-  }
-.link {
-  color:#c74600;
-  font-weight: bold;
-  /* text-decoration-line: underline; */
-}
+  } */
   
 .dl {
   margin: 5px;
@@ -134,8 +129,8 @@
     }
   
   a:link {
-  color: black;
-  border-bottom: none;
+  color: blue;
+  /* border-bottom: none; */
   }
   
   /* a:visited {
